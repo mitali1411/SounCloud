@@ -1,0 +1,479 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    padding-inline: 120px;
+}
+
+/* PART1 */
+.part1{
+    width: 100%;
+    height: 60vh;
+    background-image: url('./images/download\ \(1\)');
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-top: 4px solid orangered;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 7%;
+}
+#btn1{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#btn2{
+    width: 130px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+}
+#btn3{
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
+
+.text1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+.text1 h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.text1 h2{
+    display: none;
+}
+.text1 p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text1 button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: orangered;
+}
+
+/* PART2 */
+.part2{
+    width: 100%;
+    height: auto;
+    padding-block: 50px;
+    text-align: center;
+}
+.part2 span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.part2 span input{
+    width: 650px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(244, 243, 243);
+    font-size: 15px;
+}
+.part2 p{
+    font-size: 20px;
+    margin: 15px;
+}
+.part2 button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+}
+.part2 h2{
+    font-size: 26px;
+    font-weight: 500;
+    margin: 40px;
+}
+
+/* ALBUM */
+.album{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.box{
+    width: 190px;
+    height: 250px;
+    text-align: start;
+}
+.box img{
+    width: 190px;
+    border: 1px solid rgb(169, 167, 167);
+}
+.box h6{
+    font-size: 15px;
+    font-weight: 100;
+}
+.box p{
+    font-size: 12px;
+    margin: 0;
+    color: rgb(120, 119, 119);
+}
+#btn4{
+    width: 280px;
+    font-size: 20px;
+}
+
+/* PART3 */
+.part3{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: rgb(242, 242, 244);
+}
+.left{
+    width: 70%;
+    background-image: url('./images/never_stop_listening@1x-9c5264ff.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y:bottom ;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+.right h2{
+    font-size: 45px;
+    font-weight: 100;
+}
+.right hr{
+    width: 100px;
+    height: 3px;
+    border: none;
+    background-color: palevioletred;
+    margin-top: 15px;
+}
+.right p{
+    font-size: 27px;
+    margin-top: 15px;
+}
+.right span{
+    margin-top: 30px;
+}
+
+/* PART4 */
+.part4{
+    width: 100%;
+    height: 49vh;
+    background-image: url('./images/hp_creator_image_featured_artists-798050ae.jpg');
+    background-position: right;
+    background-size: contain;
+    color: white;
+    padding: 80px;
+}
+.part4 h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.part4 p{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.part4 button{
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 17px;
+}
+
+/* PART5 */
+.part5{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-block: 80px;
+}
+.part5 h1{
+    font-size: 38px;
+    font-weight: 100;
+}
+.part5 h2{
+    font-size: 28px;
+    font-weight: 100;
+    margin-top: 20px;
+    color: rgb(61, 61, 61);
+}
+#btn5{
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.part5 span{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+.part5 span p{
+    font-size: 15px;
+    color: rgb(75, 75, 75);
+}
+.part5 span button{
+    height: 35px;
+    width: 80px;
+    background-color: transparent;
+    border: 1px solid rgb(192, 185, 185);
+    border-radius: 3px;
+    font-size: 15px;
+    margin-left: 20px;
+    color: rgb(71, 71, 71);   
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(165, 168, 171);
+    padding-bottom: 50px;
+}
+.footer hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(190, 194, 190);
+    border: none;
+}
+.footer span,p{
+    margin-top: 10px;
+}
+.footer p{
+    color: rgb(58, 56, 56); 
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(165, 168, 171);
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.footer b{
+    color: rgb(56, 56, 226);
+}
+.footer a:hover{
+    color: rgb(58, 56, 56);
+}
+.footer b:hover{
+    color: rgb(58, 56, 56);
+}
+
+
+
+/* RESPONSIVE */
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        height: auto;
+        padding: 0%;
+    }
+    .part1{
+        width: 100%;
+        height: 55vh;
+        background-image: url('./images/part1-bg-responsive.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+    }
+    .text1{
+        width: 100%;
+        height: 45vh;
+        justify-content: end;
+        padding: 0;
+        margin: 0;
+    }
+    #btn2, #btn3{
+        display: none;
+    }
+    .text1 h1, .text1 p{
+        display: none;
+    }
+    .text1 h2{
+        display: inline;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: start;
+    }
+    .text1 button{
+        width: 400px;
+        height: 32px;
+        margin: 0;
+        margin-top: 10px;
+        color: black;
+        background-color: aliceblue;
+        font-size: 15px;
+    }
+    .part2{
+        width: 100%;
+        height: auto;
+        padding-inline: 30px;
+    }
+    .part2 span{
+        flex-direction: column;
+    }
+    .part2 span input{
+        width: 100%;
+        height: 35px;
+    }
+    .part2 span button{
+        height: 35px;
+        margin-top: 10px;
+    }
+    .part2 h2{
+        font-size: 20px;
+    }
+    .album{
+        width: 100%;
+        height: auto;
+    }
+    .box{
+        width: 170px;
+        height: 250px;
+        margin: 5px;
+    }
+    #btn4{
+        height: 35px;
+        font-size: 15px;
+    }
+    .part3{
+        width: 100%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .left{
+        width: 100%;
+        height: 30vh;
+        margin: 0%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .right{
+        width: 100%;
+        height: auto;
+        margin: 0%;
+        padding: 0%;
+        padding: 50px;
+    }
+    .right h2{
+        font-size: 35px;
+        text-align: center;
+    }
+    .right p{
+        font-size: 22px;
+        text-align: center;
+    }
+    .right hr{
+        width: 100%;
+    }
+    .right span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right img{
+        margin-left: 10px;
+    }
+    .part4{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: flex;  
+        flex-direction: column;
+        background-repeat: no-repeat;
+        background-color: black;
+    }
+    .part4 h2{
+        font-size: 35px;
+    }
+    .part4 p{
+        font-size: 20px;
+    }
+    .part5{
+        width: 100%;
+        height: auto;
+        padding-block: 50px;
+    }
+    .part5 h1{
+        font-size: 30px;
+    }
+    .part5 h2{
+        font-size: 18px;
+    }
+    #btn5{
+        height: 35px;
+    }
+    .part5 span button{
+        height: 30px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-inline: 30px;
+    }
+    
+}
